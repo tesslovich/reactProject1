@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+body {
+	width: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fontNormal {
+	font-weight: 400;
+}
+
+
+.fontMedium {
+	font-weight: 500;
+}
+
+
+.font600 {
+	font-weight: 600;
+}
+
+.fontBold {
+	font-weight: 700;
+}
+
+
+.fontMontserrat {
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.fontMonrope {
+	font-family: 'Monrope', sans-serif;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

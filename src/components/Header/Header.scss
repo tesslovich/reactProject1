@@ -1,0 +1,39 @@
+.header {
+	position: absolute;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	z-index: 2;
+	top: 72px;
+	left: 200px;
+}
+
+.header__logo {
+	width: 156px;
+	height: 52px;
+	text-align: center;
+}
+
+
+.header__wrapper-nav {
+	display: flex;
+}
+
+
+.main-nav {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	width: 547px;
+	justify-content: space-between;
+	margin-right: 26px;
+}
+
+
+.header__login {
+	width: 138px;
+	height: 52px;
+	border-radius: 100px;
+	background-color: #fff;
+}

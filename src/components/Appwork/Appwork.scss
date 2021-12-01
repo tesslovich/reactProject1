@@ -1,0 +1,139 @@
+.appwork {
+	width: 100%;
+	height: 1013px;
+	background-color: #FE724C;
+	color: #fff;
+}
+
+
+.appwork__wrapper {
+	height: 100%;
+	background-image: url('../../images/image__appwork--phone.png');
+	background-repeat: no-repeat;
+	background-position: 80% 65%;
+}
+
+
+.appwork__tittle {
+	position: relative;
+	padding: 113px 0 126px 199px;
+	margin: 0;
+	font-size: 40px;
+	line-height: 22px;
+}
+
+
+.appwork__tittle::after {
+	content: '';
+	position: absolute;
+	border: 1px solid #fff;
+	width: 43px;
+	top: 155px;
+  left: 200px;
+}
+
+
+.appwork__list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+.appwork__item {
+	width: 384px;
+	padding: 0 0 65px 343px;
+
+}
+
+
+.item__tittle {
+	margin: 0 0 12px 0;
+	font-size: 20px;
+	line-height: 22px;
+}
+
+
+.item__text {
+	margin: 0;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
+.item-first {
+	position: relative;
+
+		&::before {
+			position: absolute;
+			content: '';
+			width: 109px;
+			height: 109px;
+			border-radius: 100px;
+			background-color: #fff;
+			left: 200px;
+		}
+
+		&::after {
+			position: absolute;
+			content: '';
+			width: 38px;
+			height: 41px;
+			background-image: url('../../icons/appwork__icon-first.svg');
+			left: 236px;
+    	top: 34px;
+			background-repeat: no-repeat;
+		}
+}
+
+
+.item-second {
+	position: relative;
+
+		&::before {
+			position: absolute;
+			content: '';
+			width: 109px;
+			height: 109px;
+			border-radius: 100px;
+			background-color: #fff;
+			left: 200px;
+		}
+
+		&::after {
+			position: absolute;
+			content: '';
+			width: 40px;
+			height: 41px;
+			background-image: url('../../icons/appwork__icon-second.svg');
+			left: 236px;
+    	top: 34px;
+			background-repeat: no-repeat;
+		}
+}
+
+
+.item-third {
+	position: relative;
+
+		&::before {
+			position: absolute;
+			content: '';
+			width: 109px;
+			height: 109px;
+			border-radius: 100px;
+			background-color: #fff;
+			left: 200px;
+		}
+
+		&::after {
+			position: absolute;
+			content: '';
+			width: 37px;
+			height: 38px;
+			background-image: url('../../icons/appwork__icon-third.svg');
+			left: 236px;
+    	top: 34px;
+			background-repeat: no-repeat;
+		}
+}
